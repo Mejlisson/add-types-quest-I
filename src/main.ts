@@ -45,7 +45,7 @@ console.log(`Vi har ${arr.length} stycken användare.`);
 console.log(`Medelåldern på alla användare är ${averageAge(arr)}`); //✅averageAge
 console.log(`Medelantalet hobbies per användare är ${averageNumberOfHobbies(arr)}` // ✅averageNumberOfHobbies
 );
-
+console.log ("🧑‍🦰");
 //✅console.log(`Personen med flest hobbiies är ${(arr)}`);
 //✅ skriv ut "Den personen med flest hobbies har Y stycken hobbies". Byt ut Y mot ett funktionsanrop. Skapa den funktionen.
 const maxHobbyPerson = personWithMostHobbies(arr);
@@ -60,7 +60,7 @@ console.log(`Den yngsta personen är ${youngest.name}, som är ${youngest.age} �
 
 
 //-----------------------------------------------  🐶  ------------------------------------------------------------
-
+console.log ("🐶");
 const dogs: Dog[] = [
 	{ name: "Nisse", color: "brown" },
 	{ name: "Fiffi", color: "white" },
@@ -95,14 +95,14 @@ const monsters: Monster[] = [
 	{ name: "Ulf", age: 56, tentacles: 4, eyes: 2, hasWings: false },
 	{ name: "Ellorn", age: 423, tentacles: 2, eyes: 2, hasWings: false },
 ];
-
+console.log ("🧟");
 console.log(`Vi har ${monsters.length} stycken monster.`);
 console.log(`Medelåldern på alla monster är ${averageMonsterAge(monsters)}`); //✅
 console.log(`Medelantalet tentakler för alla monster är ${averageNumberOfTentacles(monsters)}`); //✅
-
+console.log("🧟👽🧟")
 prettyPrintMonsters(monsters);// ✅ loopa igenom alla monster och skriv ut dem med prettyPrintMonster // utöka så alla egenskaper för monstret skrivs ut
 
-console.log(`Antalet monster som har vingar är ${printMonstersWithWings(monsters)}`);
+console.log(`Antalet monster som har vingar är ${printMonstersWithWings(monsters)} 🪽.`);
 
 const noWingedMonster = getAllNoWingedMonster(monsters);
 console.log(`Antalet monster som inte har vingar är ${noWingedMonster}`); //✅

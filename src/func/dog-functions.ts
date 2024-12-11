@@ -1,15 +1,4 @@
 //Funktion som räknar antal unika färger
-/*
-export const uniqueColor = (dogs: Dog[]): number => {
-	let uniqueColors: string[] = [];
-	dogs.forEach(dog =>{
-		if(!uniqueColors.includes(dog.color)) {
-			uniqueColors.push(dog.color);
-		}
-	});
-	return uniqueColors.length;
-}
-	*/
     export const numberOfColors = (dogs: Dog[]): number => {
         //let numberOfUniqueColors = 0;
         const uniqueColors: string[] = [];
